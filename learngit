@@ -19,3 +19,7 @@ git checkout -- <file -name>  //撤销使工作区的修改和版本库或暂存
 git reset HEAD <file -name>   //清空暂存区的修改和版本库一致
 
 git rm <file -name>  //删除一个文件 错删恢复同撤销修改操作
+
+git remote add origin https://github.com/xyzlee/myGitRepository.git  //关联一个远程库
+git push -u origin master  //第一次推送master分支的所有内容
+git push origin master  //推送最新版本
