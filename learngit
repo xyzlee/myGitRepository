@@ -1,5 +1,6 @@
-learn git
+git 命令
 
-haha
-
-hi
+git add <file -name>
+git commit -m "注释"
+git status  //查看文件状态
+git diff    //查看文件修改情况
