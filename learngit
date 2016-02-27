@@ -2,7 +2,15 @@ git 命令
 
 git add <file -name>
 git commit -m "注释"
+
 git status  //查看文件状态
 git diff    //查看文件修改情况
+
 git log     //查看提交日志
 git log --pretty=oneline  //简化版的提交日志
+git reflog   //记录每一次命令的日志
+
+git reset --hard HEAD^  //回退到上一个版本
+git reset --hard HEAD~3 //回退到上三个版本
+git reset --hard <commit id>  //根据版本Id回退到对应的版本
+
