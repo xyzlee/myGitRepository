@@ -34,7 +34,7 @@ git merge <name> //合并某分支到当前分支
 git branch -d <name> //删除分支
 
 git log --graph --pretty=oneline --abbrev-commit //查看分支历史
-git merge --no-ff -m "merge with no-ff" dev
+git merge --no-ff -m "merge with no-ff" dev //禁用fast forward 模式合并，生成一个新的版本
 
 分支策略
 
