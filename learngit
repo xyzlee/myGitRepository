@@ -46,6 +46,18 @@ git merge --no-ff -m "merge with no-ff" dev //禁用fast forward 模式合并，
 
 你和你的小伙伴们每个人都在dev分支上干活，每个人都有自己的分支，时不时地往dev分支上合并就可以了。
 
-........................................................
+git stash   //将当前分支没有commit的内容存储起来，包括未add的和已经add的
+git stash list //查看存储情况
+git stash apply  //恢复存储内容
+git stash drop  //删除存储内容
+git stash pop  //恢复同时删除存储
 
-测试分支合并 xyz  ---------测试stash命令
+
+
+
+
+
+
+
+
+
