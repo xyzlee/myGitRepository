@@ -46,4 +46,4 @@ git merge --no-ff -m "merge with no-ff" dev //禁用fast forward 模式合并，
 
 你和你的小伙伴们每个人都在dev分支上干活，每个人都有自己的分支，时不时地往dev分支上合并就可以了。
 
-测试分支合并
+测试分支合并 xyz
